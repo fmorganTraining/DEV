@@ -12,8 +12,7 @@ public class AOAccountFundingParser implements IAOPayloadParser {
             when else {
                 parsePayloadDefault(payload, appInfo);
 				//testing
-		    //TEST 2
-            }
+		                }
         }
 	}
 	public void parsePayloadV1(Map<String, Object> payload, AOApplicationInfo appInfo) {
